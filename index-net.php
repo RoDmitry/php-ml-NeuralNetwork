@@ -4,24 +4,24 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
 <title>NeuralNetwork</title>
 <style type="text/css">
-    .network{
-        border: 1px solid black;
-        width: 300px;
-        display: inline-block;
-        margin: 2px;
-    }
-    .layer{
-        border: 1px dotted black;
-    }
-    .layer-name{
-        text-align: center;
-        font-weight: bold;
-    }
-    .img{
-        border: 1px solid black; 
-        display: inline-block;
-        margin: 1px;
-    }
+	.network{
+		border: 1px solid black;
+		width: 300px;
+		display: inline-block;
+		margin: 2px;
+	}
+	.layer{
+		border: 1px dotted black;
+	}
+	.layer-name{
+		text-align: center;
+		font-weight: bold;
+	}
+	.img{
+		border: 1px solid black; 
+		display: inline-block;
+		margin: 1px;
+	}
 </style>
 </head>
 <body>
@@ -50,9 +50,9 @@ $targets = [[0,0],[0,0],[0,1],[0,1],[1,0],[1,0],[1,1],[1,1]];
 
 $training->train(
 	$samples,
-    $targets,
-    $desiredError = 0.01,
-    $maxIteraions = 50000
+	$targets,
+	$desiredError = 0.01,
+	$maxIteraions = 50000
 );
 
 //Select input
