@@ -56,7 +56,7 @@ $training->train(
 );
 
 //Select input
-$input = [0,0,0];
+$input = [0,1,0];
 $network->setInput($input);
 
 //IMAGE outut
@@ -71,7 +71,7 @@ gentable($network);
 //$imglaysize = genimglay($network, $networksettings, $input, 5);
 
 ?>
-<div class="img" style="width:<?php echo $imgsize[0];?>px; height:<?php echo $imgsize[1];?>px; background:#eee url(sh<?php echo implode('',$input);?>.png) no-repeat;"></div>
+<div class="img" style="width:<?php echo $imgsize[0];?>px; height:<?php echo $imgsize[1];?>px; background:#eee url(sсh<?php echo implode('',$input);?>.png) no-repeat;"></div>
 
 <!--<img class="img" style="width:<?php echo $imglaysize[0]*10;?>px; height:<?php echo $imglaysize[1]*10;?>px; image-rendering:pixelated;" src="lay<?php echo implode('',$input);?>.png">-->
 

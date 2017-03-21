@@ -56,7 +56,7 @@ function genimg($network, $networksettings, $input, $imgxshift, $imgyshift): arr
 		$imgx += $imgxshift+40;
 		$lay++;
 	}
-	imagePng($img, './sh'.implode('',$input).'.png');
+	imagePng($img, './sсh'.implode('',$input).'.png');
 	imageDestroy($img);
 	return $size;
 }
